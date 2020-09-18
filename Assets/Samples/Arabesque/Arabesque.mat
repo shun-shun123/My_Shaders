@@ -20,9 +20,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Border: 0.075
-    - _Factor1: 4.12
-    - _Factor2: 15.42
-    - _Factor3: 3.26
-    - _GridSize: 6.01
+    - _Border: 0.1
+    - _Factor1: 1
+    - _Factor2: 1
+    - _Factor3: 1
+    - _GridSize: 3
     m_Colors: []

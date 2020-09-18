@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _CircleNbr: 60
+    - _CircleNbr: 1000
     - _OrigineX: 0.5
     - _OrigineY: 0.5
-    - _Speed: 60
+    - _Speed: -14.7
     m_Colors: []

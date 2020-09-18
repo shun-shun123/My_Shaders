@@ -1,4 +1,5 @@
-﻿Shader "Custom/Noise/PseudoRandom" {
+﻿// http://www.shaderslab.com/demo-62---pseudo-random.html
+Shader "Custom/Noise/PseudoRandom" {
     Properties {
         _Factor1 ("Factor 1", float) = 1
         _Factor2 ("Factor 2", float) = 1
@@ -20,7 +21,8 @@
             float _Factor3;
 
             float noise(half2 uv) {
-                return frac(sin(dot(uv, float2(_Factor1, _Factor2))) * _Factor3);
+                float innerProduct = dot(uv, float2(_Factor1, _Factor2));
+                return frac(sin(innerProduct) * _Factor3);
             }
 
             fixed4 frag(v2f_img i) : SV_Target {

@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Factor1: 37.73
-    - _Factor2: 24.23
-    - _Factor3: 3.66
+    - _Factor1: 1
+    - _Factor2: 1
+    - _Factor3: 1
     - _Stride: 0
     m_Colors: []
